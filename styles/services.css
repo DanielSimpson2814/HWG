@@ -1,0 +1,164 @@
+div.navbar-collapse{
+  box-shadow: none;
+  border-top: 0;
+  -webkit-box-shadow: 0;
+}
+
+nav.navbar{
+  background: transparent;
+  border: none;
+  margin-bottom: 0;
+}
+
+nav ul.nav.navbar-nav li a{
+  color: rgba(64,169,215,1);
+}
+
+/*MOBILE BRAND*/
+nav.navbar.navbar-default.navbar-fixed-top a.navbar-brand{
+  color: #fff;
+  transition: all .2s ease-in-out;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top a.navbar-brand:hover{
+  color: rgba(64,169,215,1);
+}
+
+/*DESKTOP BRAND*/
+.centered-brand{
+
+  background:radial-gradient(circle at 25px 25px, rgba(64,169,215,1), rgba(0,0,0,.9));
+  background: -webkit-radial-gradient(circle at 25px 25px, rgba(64,169,215,.76), #777);
+  background: -moz-radial-gradient(circle at 25px 25px, rgba(64,169,215,.76), #777);
+  background: -o-radial-gradient(circle at 25px 25px, rgba(64,169,215,.76), #777);
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 45vw;
+  top: 4px;
+  padding: 6px;
+  margin-right: 0;
+  box-shadow: 0px 35px 50px -18px;
+  perspective: 1200;
+}
+.centered-brand img{
+  transform: rotateX(180deg);
+  width: 85%;
+  position: absolute;
+}
+
+/*MAIN CONTENT*/
+
+main{
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  margin-bottom: 190px;
+}
+
+.banner-tint{
+  background: rgba(0,0,0,0.4);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+}
+
+.banner-txt{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  border: 1px solid #fff;
+  padding: 20px 30px;
+  max-width: 600px;
+}
+
+.banner-txt hr{
+  width: 70%;
+}
+
+.par-scroll1{
+  background: url("/images/Brainstorm copy-re.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 500px;
+}
+
+.par-scroll2{
+  background: url("/images/coding_hands_copy-re.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 500px;
+}
+
+
+.par-scroll3{
+  background: url("/images/apple_products_copy-re.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 500px;
+}
+
+
+/*FOOTER*/
+
+footer{
+  background: #000;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  padding: 40px 0;
+  width: 100%;
+}
+
+footer ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+footer a{
+  color: #fff;
+  transition: all .1s ease-in-out;
+}
+
+footer a:hover{
+  color: rgba(64,169,215,1);
+  cursor: pointer;
+}
+
+footer .footer-stuff{
+  max-width: 640px;
+  margin: 0 auto;
+
+}
+
+footer .social li{
+  display: inline-block;
+  font-size: 24px;
+  padding-left: 2px;
+}
+
+
+/*MEDIA QUERRIES*/
+
+@media (max-width: 991px){
+  main{
+    margin-bottom: 300px;
+  }
+}
