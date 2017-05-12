@@ -158,6 +158,37 @@ footer .social li{
 
 /*MEDIA QUERRIES*/
 
+@media (min-width: 3000px) {
+
+  body{
+    font-size: 20px;
+  }
+
+  .nav.navbar-nav{
+    font-size: 4em;
+  }
+
+  .par-scroll1,
+  .par-scroll2,
+  .par-scroll3{
+    height: 33.33vh;
+  }
+
+  main{
+    margin-bottom: 230px;
+  }
+
+  main h1{
+    font-size: 90px;
+  }
+
+  footer .footer-stuff {
+    max-width: 850px;
+    font-size: 20px;
+  }
+}
+
+
 @media (max-width: 991px){
   main{
     margin-bottom: 300px;
