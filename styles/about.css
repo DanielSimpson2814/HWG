@@ -34,7 +34,8 @@ nav.navbar.navbar-default.navbar-fixed-top a.navbar-brand:hover{
   height: 90px;
   border-radius: 50%;
   position: absolute;
-  margin-left: 45vw;
+  margin-left: 50%;
+  left: -50px;
   top: 4px;
   padding: 6px;
   margin-right: 0;
